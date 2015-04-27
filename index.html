@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>reveal.js - The HTML Presentation Framework</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css" id="theme">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<h1>100 Girls of Code</h1>
+					<h3>And why it's important to get involved</h3>
+					<p>
+						<small>Created by Heather Price</small>
+					</p>
+				</section>
+
+				<section>
+					<section>
+						<h2>Stats first!</h2>
+						<p>
+							Between 15-17% of Software Engineering jobs are held by women. It is also projected that software eingineering jobs will grow by 22%. It is also shown that 74% of girls are interested in STEM degrees, but only 3% actually pursue them.
+						</p>
+					</section>
+					<section>
+						<p>So if we want to grow the industry, so need to get more girls to pursue Computer Science Degrees. They need to get excited about it.
+					</section>
+				</section>
+
+				<!-- Example of nested vertical slides -->
+				<section>
+					<section>
+						<h2>100 Girls of Code</h2>
+						<p>This is program designed to get girls interested in Computer Science by providing them with exciting workshops.</p>
+						<p>These workshops are run by women to help the girls understand that there are girl Software Engineers and this isn't just a "boy's game".</p>
+						<br>
+					</section>
+					<section>
+						<p>This program provides:
+							<ul>
+								<li>Materials for the one-day workshop</li>
+								<li>Teacher Training</li>
+								<li>Promotional Assistance</li>
+								<li>Technical and Education Support</li>
+								<li>Participant Eligibility for Scholarships</li>
+								<li>And more...</li>
+							</ul>
+						</p>
+					</section>
+				</section>
+
+				<section>
+					<h2>Benefits</h2>
+					<p>
+						If Modea were to help sponsor this program we would become more active in the community as well as teach girls that they can do what we do everyday.
+					</p>
+					<p>This could lead to potiental internship from the participants, better publicity, creating challenges for the current employees of Modea by allowing them to help girls solve problems, and introducint designers to the world of code.</p>
+				</section>
+
+				<section>
+					<h2>Thank you</h2>
+				</section>
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
