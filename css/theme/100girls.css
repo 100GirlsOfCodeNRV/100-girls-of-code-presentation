@@ -70,7 +70,14 @@ body {
   border-radius: 50%;
   margin: 0px;
 }
-
+.profileimglg{
+  height: 300px;
+  border-radius: 50%;
+  margin: 0px;
+}
+.logo{
+  height: 350px;
+}
 /* Ensure certain elements are never larger than the slide itself */
 .reveal img, .reveal video, .reveal iframe {
   max-width: 95%;
